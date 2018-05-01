@@ -12,10 +12,11 @@ import RxDataSources
 
 class BookStoreViewModel {
 
+    // Main Observable function
     func getBooks() -> Observable<[SectionModel<String, Book>]> {
         return Observable.create { (observer) -> Disposable in
             
-            let books = [Book(title: "Introduction to Algorithms", author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest y Clifford Stein", price: 100),
+            let books = [Book(title: "Introduction to Algorithms", author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein", price: 100),
                          Book(title: "A Game of Thrones", author: "George R. R. Martin", price: 30),
                          Book(title: "The Adventures of Sherlock Holmes", author: "Arthur Conan Doyle", price: 7)]
             let section = [SectionModel(model: "", items: books)]

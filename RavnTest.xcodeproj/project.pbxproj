@@ -13,7 +13,6 @@
 		65379AE42097C50F003A92B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65379AE32097C50F003A92B1 /* Assets.xcassets */; };
 		65379AE72097C50F003A92B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65379AE52097C50F003A92B1 /* LaunchScreen.storyboard */; };
 		65379AEF2097C721003A92B1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 65379AEE2097C721003A92B1 /* Podfile */; };
-		65379AF62097DCF1003A92B1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65379AF52097DCF1003A92B1 /* TableViewCell.swift */; };
 		65379AF820980D09003A92B1 /* BookStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65379AF720980D09003A92B1 /* BookStoreViewModel.swift */; };
 		65379AFA20981320003A92B1 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65379AF920981320003A92B1 /* Book.swift */; };
 		95C8BEF6EB564C16F6F0B9DC /* Pods_RavnTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE57C037CC329739CDAD0D5C /* Pods_RavnTest.framework */; };
@@ -29,7 +28,6 @@
 		65379AE62097C50F003A92B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65379AE82097C50F003A92B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65379AEE2097C721003A92B1 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		65379AF52097DCF1003A92B1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		65379AF720980D09003A92B1 /* BookStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreViewModel.swift; sourceTree = "<group>"; };
 		65379AF920981320003A92B1 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		DAEF20B3187E5AB90E74F752 /* Pods-RavnTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RavnTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RavnTest/Pods-RavnTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				65379ADE2097C50F003A92B1 /* BookStoreViewController.swift */,
 				65379AE02097C50F003A92B1 /* Main.storyboard */,
 				65379AE82097C50F003A92B1 /* Info.plist */,
-				65379AF52097DCF1003A92B1 /* TableViewCell.swift */,
 				65379AF720980D09003A92B1 /* BookStoreViewModel.swift */,
 				65379AF920981320003A92B1 /* Book.swift */,
 			);
@@ -228,7 +225,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65379AF62097DCF1003A92B1 /* TableViewCell.swift in Sources */,
 				65379ADF2097C50F003A92B1 /* BookStoreViewController.swift in Sources */,
 				65379ADD2097C50F003A92B1 /* AppDelegate.swift in Sources */,
 				65379AFA20981320003A92B1 /* Book.swift in Sources */,
